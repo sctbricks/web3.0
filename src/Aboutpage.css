@@ -1,0 +1,77 @@
+/* About.css */
+
+.about-section {
+    padding: 80px 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section-title h2 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; /* Align items to the center */
+  }
+  
+  .about-text {
+    flex-basis: 100%; /* Take up full width on small screens */
+    max-width: 100%; /* Take up full width on small screens */
+    margin-bottom: 40px; /* Add some space between text and image */
+  }
+  
+  .about-text p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+  }
+  
+  .about-text ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .about-text ul li {
+    margin-bottom: 10px;
+  }
+  
+  .about-text b {
+    color: #333;
+  }
+  
+  .about-image {
+    flex-basis: 100%; /* Take up full width on small screens */
+    max-width: 100%; /* Take up full width on small screens */
+  }
+  
+  .about-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Styling */
+  @media (min-width: 768px) {
+    .about-content {
+      flex-wrap: nowrap; /* Prevent wrapping on medium and larger screens */
+    }
+  
+    .about-text {
+      flex-basis: 60%; /* Take up 60% of the width on medium and larger screens */
+      max-width: 60%; /* Take up 60% of the width on medium and larger screens */
+      margin-bottom: 0; /* Remove margin bottom on medium and larger screens */
+    }
+  
+    .about-image {
+      flex-basis: 40%; /* Take up 40% of the width on medium and larger screens */
+      max-width: 40%; /* Take up 40% of the width on medium and larger screens */
+    }
+  }
+  

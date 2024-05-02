@@ -1,0 +1,42 @@
+.service-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.service-page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.service-page p {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+/* Styling for the carousel container */
+.carousel-container {
+  margin-top: 40px;
+}
+
+/* Styling for individual slides */
+.slide {
+  padding: -500px;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.slide h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.slide p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
